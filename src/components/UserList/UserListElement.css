@@ -1,0 +1,12 @@
+.user-list li {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid grey;
+}
+
+.user-list li:first-letter {
+  text-transform: uppercase;
+}
+
+.user-list li:not(:first-child) {
+  margin-top: 0.5rem;
+}
